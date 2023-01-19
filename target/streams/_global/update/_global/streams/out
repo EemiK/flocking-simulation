@@ -1,0 +1,56 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ...
+[debug] Done updating 
+[error] java.lang.RuntimeException: found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[error] 
+[error] 	* com.lihaoyi:geny_2.13:1.0.0 (early-semver) is selected over 0.7.1
+[error] 	    +- com.lihaoyi:os-lib_2.13:0.9.0                      (depends on 1.0.0)
+[error] 	    +- com.lihaoyi:upickle-core_2.13:2.0.0                (depends on 0.7.1)
+[error] 
+[error] 
+[error] this can be overridden using libraryDependencySchemes or evictionErrorLevel
+[error] 	at scala.sys.package$.error(package.scala:30)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:89)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.internal.LibraryManagement$$$Lambda$3869/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.util.Tracked$$$Lambda$3812/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$$$Lambda$3871/0x0000000000000000.apply(Unknown Source)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.internal.LibraryManagement$$$Lambda$3868/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.util.Tracked$$$Lambda$3678/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+[error] 	at sbt.Classpaths$$$Lambda$1428/0x0000000000000000.apply(Unknown Source)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at scala.Function1$$Lambda$1097/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.internal.util.$tilde$greater$$Lambda$3433/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.Execute$$Lambda$3461/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.Execute$$Lambda$3444/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4$$Lambda$3458/0x0000000000000000.apply(Unknown Source)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:866)
+[error] (update) found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[error] 
+[error] 	* com.lihaoyi:geny_2.13:1.0.0 (early-semver) is selected over 0.7.1
+[error] 	    +- com.lihaoyi:os-lib_2.13:0.9.0                      (depends on 1.0.0)
+[error] 	    +- com.lihaoyi:upickle-core_2.13:2.0.0                (depends on 0.7.1)
+[error] 
+[error] 
+[error] this can be overridden using libraryDependencySchemes or evictionErrorLevel
